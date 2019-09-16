@@ -15,16 +15,7 @@ y = idade_sum
 
 plt.figure(figsize=(8, 6))
 
-"""
-sobre a função bar(*args, **kwargs)
-Parameters:
 
-x:  As coordenadas x das barras
-y:  A altura (s) das barras
-
-Mais em:
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.bar.html
-"""
 plt.bar(x, y)
 
 plt.title('Distribuição de Idades')
