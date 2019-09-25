@@ -11,7 +11,7 @@ plt.pie(titulos, explode=explode, labels=labels, colors=cores, autopct=lambda p:
 
 # Determina que as proporções sejam iguais ('equal') de modo a desenhar o círculo
 plt.axis('equal')
-# plt.show()
+plt.show()
 
 print(sum(titulos)) #soma
 media = statistics.mean([11, 2, 13, 14, 44])
