@@ -10,3 +10,5 @@ data = {'Estado': ['Santa Catarina', 'Paraná', 'Goiás', 'Bahia', 'Minas Gerais
 frame = DataFrame(data)
 print(frame)
 frame
+print(frame.corr())
+frame.corr()
