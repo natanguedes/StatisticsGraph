@@ -1,33 +1,8 @@
-
-
-# df = pd.read_csv('C:/Users/Natanael/PycharmProjects/untitled3/questionario.csv')
-# print(df.head())
-# corr = df['Turma'].corr(df['Idade'],method="pearson", min_periods=1)
-#  # """
-import pandas
 import numpy as np
+import matplotlib.mlab as mlab
+import matplotlib.pyplot as plt
 
-data = pandas.DataFrame({'Numb':[1,2,3],'a':[7,8,9]})
-corr1 = data['Numb'].corr(data['a'],method='pearson', min_periods=1)
-print(corr1)
-# Criando um diagrama de barras para os totais de cada idade
-# """
-# idade = df['Idade']
-# idade_sum = idade.value_counts()
-# idade_sum = idade_sum.sort_index()
-#
-# x = idade_sum.index
-# y = idade_sum
-#
-# plt.figure(figsize=(8, 6))
-#
-#
-# plt.bar(x, y)
-#
-# plt.title('Distribuição de Idades')
-# plt.xlabel('Idade')
-# plt.ylabel('Alunos')
-# plt.xticks(x) # obriga a mostrar todos os números no eixo x
-# plt.show()
-# plt.savefig('C:/Users/Natanael/PycharmProjects/untitled3/diagrama-barras.png')
-# plt.close()
+x = [21,22,23,4,5,6,77,8,9,10,31,32,33,34,35,36,37,18,49,50,100]
+num_bins = 5
+n, bins, patches = plt.hist(x, num_bins, facecolor='blue', alpha=0.5)
+plt.show()
