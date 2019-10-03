@@ -17,6 +17,6 @@ plt.axis([-10, 60, 0, 11])
 plt.title("Mais incrementado")
 
 plt.grid(True)
-plt.xlabel("Preço de produtos")
-plt.ylabel("dias")
+plt.ylabel("Preço de produtos")
+plt.xlabel("dias")
 plt.show()
