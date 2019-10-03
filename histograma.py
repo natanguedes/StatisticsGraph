@@ -7,4 +7,5 @@ num_bins = 5
 n, bins, patches = plt.hist(x, num_bins, facecolor='navy', alpha=0.5)
 plt.ylabel("Frequencia")
 plt.xlabel("idade")
+plt.title("Idade da população de  um País")
 plt.show()
