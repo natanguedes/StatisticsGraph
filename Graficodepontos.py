@@ -14,7 +14,7 @@ plt.plot( x, data2, 'r^') # red triangulo
 plt.plot( x, data2, 'k--', color='blue')  # linha tracejada azul
 
 plt.axis([-10, 60, 0, 11])
-plt.title("Mais incrementado")
+plt.title("Evolução dos preços de um setor financeiros")
 
 plt.grid(True)
 plt.ylabel("Preço de produtos")
