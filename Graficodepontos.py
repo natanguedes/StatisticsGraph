@@ -17,6 +17,6 @@ plt.axis([-10, 60, 0, 11])
 plt.title("Mais incrementado")
 
 plt.grid(True)
-plt.xlabel("eixo horizontal")
-plt.ylabel("que legal")
+plt.xlabel("Preço de produtos")
+plt.ylabel("dias")
 plt.show()
