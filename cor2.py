@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-data = pd.read_csv('https://www.dropbox.com/s/4jgheggd1dak5pw/data_visualization.csv?raw=1', index_col=0)
+data = pd.read_csv('data_visualization.csv', index_col=0)
 corr = data.corr()
 fig = plt.figure()
 ax = fig.add_subplot(111)
