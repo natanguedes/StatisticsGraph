@@ -14,5 +14,6 @@ y2 = ["salgado"]
 plt.bar(x, y, label='doce', color='r')
 plt.bar(x2, y2, label='salgado', color='y')
 plt.legend(loc=9)
-
+plt.title("Gráficos sobre biscoitos")
+plt.ylabel("Tipos de biscoitos")
 plt.show()
