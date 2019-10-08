@@ -132,7 +132,7 @@ text_string += "\nSum of squared error: %f" % (sose)
 ax.text(0.010, 0.972, text_string, transform=ax.transAxes, verticalalignment='top', bbox=dict(facecolor='none', pad=10),
         fontsize=8)
 
-""" Plotting the data """
+
 ax.scatter(0, beta, color='red', label='Intercept')
 ax.scatter(x, y, color='grey', label='Data')
 ax.plot(line, color='blue', label='Linear Regression')
