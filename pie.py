@@ -12,7 +12,7 @@ values = [90, 10]
 colors = ['b', 'g']
 labels = ['Feminino', 'Masculino']
 xplode = (0.2, 0)
-plt.pie(values, colors=colors, labels=values, explode=xplode, counterclock=False, shadow=True)
+plt.pie(values, colors=colors, labels=values  , explode=xplode, counterclock=False, shadow=True)
 plt.title('Relacao entre feminino e masculino')
 plt.legend(labels, loc=3)
 plt.show()

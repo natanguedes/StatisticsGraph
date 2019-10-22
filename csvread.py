@@ -5,5 +5,7 @@ import matplotlib.pyplot as plt
 # linha = csv.reader(arquivo)
 
 
-df = csv.reader('Ano-2012.csv')
+df = csv.reader('dataframe_produtores21.csv')
+print(df)
+
 
