@@ -13,6 +13,6 @@ colors = ['b', 'g']
 labels = ['Feminino', 'Masculino']
 xplode = (0.2, 0)
 plt.pie(values, colors=colors, labels=values  , explode=xplode, counterclock=False, shadow=True)
-plt.title('Relacao entre feminino e masculino')
+plt.title('Relação entre feminino e masculino que utiliza as redes sociais')
 plt.legend(labels, loc=3)
 plt.show()

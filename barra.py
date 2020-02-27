@@ -1,9 +1,2 @@
-import numpy as np
-import matplotlib.pyplot as plt
-produtos = ['Arroz','Feijão','macarrao ']
-qts = [10,20,30]
-plt.barh(produtos, qts, color='green')
-plt.ylabel("Produtos Agrícolas")
-plt.xlabel("Participação dos Produtos (em %)")
-plt.title("Produtos de maiores participação da indústria agrícolas ")
-plt.show()
+legend(x=1, y=4.5, xpd=TRUE, ncol=2, legend=c("tipo 1", "tipo 2"),
+       fill=c("forestgreen", "palegreen"), bty="n")

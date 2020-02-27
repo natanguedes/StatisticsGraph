@@ -2,7 +2,7 @@ import statistics
 
 import matplotlib.pyplot as plt
 import numpy as np
-labels = ['Corinthias', 'Palmeiras', 'Santos', 'São Paulo']
+labels = ['Corinthians', 'Palmeiras', 'Santos', 'São Paulo']
 titulos = [27, 22, 22, 22]
 cores = ['lightblue', 'green', 'white', 'red']
 explode = (0.1, 0, 0, 0)  # somente explode primeiro pedaço

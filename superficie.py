@@ -1,11 +1,13 @@
 # Librerías
 import numpy as np
-from matplotlib.mlab import griddata
+import matplotlib.mlab
 from mpl_toolkits.mplot3d.axes3d import *
 from matplotlib import cm
 import matplotlib.pyplot as plt
 
 # Arreglos de puntos: ahora son 16!
+from scipy.interpolate import griddata
+
 x = [0, 1, 2, 3, 4, 5, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5]
 y = [0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
 z = [1, 5, 1, 3, 2, 1, 1, 7, 1, 4, 2, 1, 2, 2, 2, 1]
